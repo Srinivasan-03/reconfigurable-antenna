@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20170928" creator="modeler">
+  <Objects>
+    <Object name="Lumped Elements\Folder1:Diode_OFF" id="5">
+      <FatArrow position="25 24.5 1.63499999" direction="0 -0.5 0" dimension="10 10 10" material="$WireMaterial$" text="Folder1:Diode_OFF" short="Diode_OFF"/>
+      <LineSet points="25 24.75 1.63499999 25 24.25 1.63499999" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="21 24.5 1.63499999 29 24.5 1.63499999" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Ports\port1" id="6">
+      <Cone position="25 5 0.817499995" direction="0 0 -1.63499999" dimension="10 10 10" material="$PortMaterial$" text="1" short="1"/>
+      <LineSet points="25 5 1.63499999 25 5 0" stripped="1" material="$WireMaterial$"/>
+    </Object>
+  </Objects>
+  <Materials/>
+  <Groups/>
+</CSTAuxiliaryGeometry>

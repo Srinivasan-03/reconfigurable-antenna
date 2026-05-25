@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20170928">
+  <Objects>
+    <Object name="Lumped Elements\Folder1:Diode_OFF" id="5">
+      <FatArrow position="25 24.375 1.63499999" direction="0 -1 0" dimension="10 10 10" material="$WireMaterial$" text="Diode_OFF" short="Diode_OFF"/>
+      <LineSet points="25 24.75 1.63499999 25 24.5 1.63499999 25 24.5 1.63499999 25 24.25 1.63499999" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="25 24.5 1.63499999 25 24.25 1.63499999" stripped="1" material=""/>
+    </Object>
+    <Object name="Ports\port1" id="6">
+      <Cone position="25 5 0.612411797" direction="0 0 -1" dimension="10 10 10" material="$PortMaterial$" text="1" short="1"/>
+      <LineSet points="25 5 1.63499999 25 5 1.22482359 25 5 1.22482359 25 5 0.816549063 25 5 0.816549063 25 5 0.408274531 25 5 0.408274531 25 5 0" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="25 5 0.816549063 25 5 0.408274531" stripped="1" material=""/>
+    </Object>
+  </Objects>
+  <Materials>
+    <Material name="$noSnappingMaterial$">
+      <Drawstyle color="0 0 0" transparency="0" linestrength="5"/>
+    </Material>
+    <Material name="">
+      <Drawstyle color="0 0 0.949999988" transparency="0.600000024" linestrength="0"/>
+    </Material>
+  </Materials>
+  <Groups/>
+</CSTAuxiliaryGeometry>

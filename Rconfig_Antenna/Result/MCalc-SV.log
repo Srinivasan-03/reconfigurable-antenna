@@ -1,0 +1,6 @@
+ParaControl_AMD64-1xN @ Srinivasan:  ===============================================================================================
+                                     43276.00 ms |          | SV-crop-all | Outside MCalcResultIdentification | 30.97 MB | 0.0000 MB
+                                     43279.00 ms |  --> 3rd | SV-crop-all |                        All meshes | 31.05 MB | 0.0860 MB
+                                     43283.00 ms | --> peak | SV-crop-all |                        All meshes | 31.06 MB | 0.0041 MB
+                                     43283.00 ms |  --> 2nd | SV-crop-all | Outside MCalcResultIdentification | 31.06 MB | 0.0000 MB
+                                     ===============================================================================================

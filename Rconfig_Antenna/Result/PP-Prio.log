@@ -1,0 +1,22 @@
+=========================================
+== CST Matrix Calculation Priority Log ==
+=========================================
+Priorities are sorted in ascending order beginning with the lowest priority
+ 
+Group | Shape-ID | ShapeName | Material | User-priority | 2D/3D-Geometry | Material-attributes | Shape-attributes | Feature-ID | Schemetype
+1 | 8 | </cst/Boundaries/> Low^X | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 9 | </cst/Boundaries/> Low^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 10 | </cst/Boundaries/> Low^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 11 | </cst/Boundaries/> Up^X | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 12 | </cst/Boundaries/> Up^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 13 | </cst/Boundaries/> Up^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+2 | 6 | </cst/Ports/> 1^t0 | Copper (annealed) | n/a | no | pec.rho.surface-impedance. | edge-element.wire. | n/a | FIT_TD
+2 | 7 | </cst/Ports/> 1^t1 | Copper (annealed) | n/a | no | pec.rho.surface-impedance. | edge-element.wire. | n/a | FIT_TD
+3 | 14 | </cst/Lumped Elements/> discrete_face_port:Folder1:Diode_OFF^t0 | Copper (annealed) | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 15 | </cst/Lumped Elements/> discrete_face_port:Folder1:Diode_OFF^t1 | Copper (annealed) | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+4 | 4 | component1:Substrate | FR4(LOSSY) | n/a | yes | normal. | solid. | n/a | FIT_TD
+5 | 1 | component1:Feed | Copper (pure) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+5 | 2 | component1:Ground | Copper (annealed) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+5 | 3 | component1:Patch | Copper (annealed) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 5 | discrete_face_port:Folder1:Diode_OFF | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+=========================================
